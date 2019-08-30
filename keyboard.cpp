@@ -214,6 +214,7 @@ string Keyboard::popup(string title)
             press();
             delay(250);
         }
+      delay(100);
     }
 
     LCDclear();
